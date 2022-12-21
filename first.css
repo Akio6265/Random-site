@@ -271,6 +271,9 @@ footer{
         height: 65px; 
         font-size: small;
     }
+    header h1{
+        font-size: 180%;
+    }
     header hr {
         color: yellow;
         width: 500px;
@@ -289,7 +292,7 @@ footer{
         width: 100%;
     }
         #top-sec div h1 {
-            font-size: 187%;
+            font-size: 200%;
             color: rgb(45, 43, 62)
         }
         #top-sec div h3 {
