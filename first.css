@@ -18,7 +18,7 @@ header {
 
 header hr {
     color: yellow;
-    width: 1400px;
+    width: 90%;
 
 }
 
@@ -93,7 +93,6 @@ header hr {
 
 #top-sec #img {
     height: 46%;
-    margin: 50px 0px;
 }
 
 #containor p {
@@ -257,7 +256,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     body {
       background-color: lightblue;
     }
@@ -269,16 +268,11 @@ footer{
         align-items: center;
         justify-content: center;
         height: 65px; 
-        font-size: small;
     }
     header h1{
-        font-size: 180%;
+        font-size: 110%;
     }
-    header hr {
-        color: yellow;
-        width: 500px;
     
-    }
    #bg {
         position: absolute;
         height: 100%;
@@ -292,12 +286,10 @@ footer{
         width: 100%;
     }
         #top-sec div h1 {
-            font-size: 200%;
-            color: rgb(45, 43, 62)
+            font-size: 195%;
         }
         #top-sec div h3 {
-            font-size: 100%;
-            color: rgb(45, 43, 62);
+            font-size: 90%;
         }
         #sec-div {
             height: 100%;
@@ -308,6 +300,9 @@ footer{
         }
         #top-sec img{
             width: 100%;
+            height: 70%;
+            padding-top: 15%;
+          }
         }
         .in-nd-div {
             width: 25%;
@@ -316,21 +311,27 @@ footer{
         #rd-con{
             margin: 0px;
         }
-        #top-sec #img::before {
-            content: '';
-            background: url('https://i.pinimg.com/564x/aa/13/da/aa13da63395bb68b86f2bdebd1b2d7fd.jpg');
-            position: absolute;
-            width: 30%;
-            height: 67%;
-            background-size: 200px;
-            background-repeat: no-repeat;
-            left: 31%;
-            top: 57px;
-            opacity: .6;
+        #top-sec #img::before
+        
+        {content: '';
+        background: url('https://i.pinimg.com/564x/aa/13/da/aa13da63395bb68b86f2bdebd1b2d7fd.jpg');
+          background-repeat: repeat;
+          background-size: auto;
+        position: absolute;
+        width: 30%;
+        height: 67%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        left: 32%;
+        top: 110px;
+        opacity: .6;}
+        #nd-sec{
+            font-size: 85%;
         }
+#rd-sec{
+    font-size: 85%;
+}
+
         
 
-
-        
-
-  }
+  
