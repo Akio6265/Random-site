@@ -273,7 +273,7 @@ footer{
     }
     header hr {
         color: yellow;
-        width: 550px;
+        width: 500px;
     
     }
    #bg {
@@ -299,6 +299,12 @@ footer{
         #sec-div {
             height: 100%;
             margin: 0px;
+        }
+        #top-sec #img{
+            width: 100%;
+        }
+        #top-sec img{
+            width: 100%;
         }
         .in-nd-div {
             width: 25%;
