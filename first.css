@@ -273,6 +273,9 @@ footer{
         font-size: 110%;
     }
     
+header hr {
+    color: yellow;}
+    
    #bg {
         position: absolute;
         height: 100%;
