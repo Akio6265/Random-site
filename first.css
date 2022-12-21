@@ -279,9 +279,12 @@ footer{
    #bg {
         position: absolute;
         height: 100%;
-        width: 70%;
+        width: 60%;
         background-color: #E8D954;
         z-index: 0;}
+        #container{
+            margin: 0px;
+        }
     #head{
         width: 100%;
     }
@@ -295,6 +298,7 @@ footer{
         }
         #sec-div {
             height: 100%;
+            margin: 0px;
         }
         .in-nd-div {
             width: 25%;
@@ -303,6 +307,19 @@ footer{
         #rd-con{
             margin: 0px;
         }
+        #top-sec #img::before {
+            content: '';
+            background: url('https://i.pinimg.com/564x/aa/13/da/aa13da63395bb68b86f2bdebd1b2d7fd.jpg');
+            position: absolute;
+            width: 30%;
+            height: 67%;
+            background-size: 200px;
+            background-repeat: no-repeat;
+            left: 31%;
+            top: 57px;
+            opacity: .6;
+        }
+        
 
 
         
