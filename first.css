@@ -243,7 +243,68 @@ header hr {
 align-items: center;
 justify-content: space-evenly;
 }
+.div-div a{
+    text-decoration: none;
+    color: black;
+} 
+.rd-con-div h3{
+    text-decoration: underline;
+    color: black;
+}
+
+
 footer{
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    header {
+        color: white;
+        background-color: rgb(31, 31, 31);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 65px; 
+        font-size: small;
+    }
+    header hr {
+        color: yellow;
+        width: 550px;
+    
+    }
+   #bg {
+        position: absolute;
+        height: 100%;
+        width: 70%;
+        background-color: #E8D954;
+        z-index: 0;}
+    #head{
+        width: 100%;
+    }
+        #top-sec div h1 {
+            font-size: 187%;
+            color: rgb(45, 43, 62)
+        }
+        #top-sec div h3 {
+            font-size: 100%;
+            color: rgb(45, 43, 62);
+        }
+        #sec-div {
+            height: 100%;
+        }
+        .in-nd-div {
+            width: 25%;
+            padding:5px;
+        }
+        #rd-con{
+            margin: 0px;
+        }
+
+
+        
+
+  }
