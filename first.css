@@ -89,6 +89,7 @@ header hr {
     left: 31%;
     top: 57px;
     opacity: .6;
+    border-radius: 100%;
 }
 
 #top-sec #img {
