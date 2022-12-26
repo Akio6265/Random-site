@@ -84,7 +84,7 @@ header hr {
     position: absolute;
     width: 30%;
     height: 67%;
-    background-size: 200px;
+    background-size: 100%;
     background-repeat: no-repeat;
     left: 31%;
     top: 57px;
@@ -343,18 +343,12 @@ footer {
     }
 
     #top-sec #img::before {
-        content: '';
-        background: url('https://i.pinimg.com/564x/aa/13/da/aa13da63395bb68b86f2bdebd1b2d7fd.jpg');
-        background-repeat: repeat;
-        background-size: auto;
-        position: absolute;
-        width: 30%;
-        height: 67%;
+        height: 35%;
+        width: 31%;
+        border-radius: 48%;
+        top: 34%;
         background-size: 100%;
-        background-repeat: no-repeat;
-        left: 32%;
-        top: 110px;
-        opacity: .6;
+
     }
 
     #nd-sec {
